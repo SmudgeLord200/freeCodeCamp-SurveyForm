@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+  }
+  
+  #description {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  form {
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2.5em;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 0.5rem;
+    color: white;
+  }
+  
+  .f-one, .f-two, .f-three, .f-four, .f-five {
+    border: none;
+    padding: unset;
+    margin: unset;
+  }
+  
+  .f-three label, .f-four label {
+    margin: 0.2em 0;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.125rem;
+  }
+  
+  form p {
+    font-size: 1.125rem;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2.5em;
+    border-radius: 0.25rem;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  #submit {
+    background-color: #37af65;
+    color: white;
+    border: none;
+  }
